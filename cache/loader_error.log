@@ -1,0 +1,223 @@
+[2026-09-16 02:03:55] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:03:55] [ERROR] Get Project ID failed: Undefined constant "DIR"
+[2026-09-16 02:03:55] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:03:55] [INFO] Incoming Request - Action: '', Filename: '', Method: GET
+[2026-09-16 02:03:55] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:03:55] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:03:55] [CRITICAL] Action processing error [file_list]: Undefined constant "DIR"
+[2026-09-16 02:03:55] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:03:55] [ERROR] Get Project ID failed: Undefined constant "DIR"
+[2026-09-16 02:03:55] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:03:55] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:03:55] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:03:55] [CRITICAL] Action processing error [view]: Undefined constant "DIR"
+[2026-09-16 02:15:31] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:15:31] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:15:31] [INFO] Incoming Request - Action: '', Filename: '', Method: GET
+[2026-09-16 02:15:31] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:15:31] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:15:32] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:15:32] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:15:32] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:15:32] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:15:33] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:15:33] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:15:37] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:15:37] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:15:37] [INFO] Incoming Request - Action: '', Filename: '', Method: GET
+[2026-09-16 02:15:37] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:15:37] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:15:39] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:15:39] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:15:39] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:15:39] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:15:40] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:15:40] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:16:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:16:06] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:16:06] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:16:06] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:16:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:16:13] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:16:13] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:16:13] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:16:13] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:16:13] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:16:15] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:16:16] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:16:16] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:16:16] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:16:17] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:16:17] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:16:20] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:16:20] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:16:20] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:16:20] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:16:23] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:16:23] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:16:33] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:16:33] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:16:33] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:16:33] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:16:33] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:16:36] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:16:36] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:16:36] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:16:36] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:16:37] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:16:37] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:17:03] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:17:03] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:17:03] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:17:03] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:17:03] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:17:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:17:06] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:17:06] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:17:06] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:17:07] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:17:07] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:21:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:21:06] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:21:06] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:21:06] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:21:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:21:10] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:21:10] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:21:10] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:21:10] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:21:11] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:21:11] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:26:59] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:26:59] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:26:59] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:26:59] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:26:59] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:27:01] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:27:01] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:27:01] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:27:01] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:27:02] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:27:02] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:27:26] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:27:26] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:27:26] [INFO] Incoming Request - Action: '', Filename: '', Method: GET
+[2026-09-16 02:27:26] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:27:26] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:27:29] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:27:29] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:27:29] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:27:29] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:27:32] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:27:32] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:28:05] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:28:05] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:28:05] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:28:05] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:28:05] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:28:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:28:06] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:28:06] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:28:06] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:28:07] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:28:07] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:28:21] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:28:21] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:28:21] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 02:28:21] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 02:28:21] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 02:28:23] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:28:23] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:28:23] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:28:23] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:28:24] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:28:24] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:35:59] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:35:59] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:35:59] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:35:59] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:36:00] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:36:00] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 02:41:12] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 02:41:12] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 02:41:12] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 02:41:12] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 02:41:13] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 02:41:13] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 03:30:06] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 03:30:06] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 03:30:06] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 03:30:06] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 03:30:07] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 03:30:07] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 05:00:09] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 05:00:09] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 05:00:09] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 05:00:09] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 05:00:10] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 05:00:10] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 06:06:49] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 06:06:49] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 06:06:49] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 06:06:49] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 06:06:50] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 06:06:50] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 06:07:00] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 06:07:00] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 06:07:00] [INFO] Incoming Request - Action: '', Filename: 'dashb', Method: GET
+[2026-09-16 06:07:00] [INFO] Handling Range/Partial Download for 'dashb' via block_chunk.php
+[2026-09-16 06:07:01] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 06:07:01] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 06:07:11] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 06:07:11] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 06:07:11] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 06:07:11] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 06:07:12] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 06:07:12] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 06:07:15] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 06:07:15] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 06:07:15] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 06:07:15] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 06:07:16] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 06:07:16] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 06:09:14] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 06:09:14] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 06:09:14] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 06:09:14] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 06:09:15] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 06:09:15] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 06:13:03] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 06:13:03] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: YES
+[2026-09-16 06:13:03] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 06:13:03] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 06:13:04] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 06:13:04] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 09:00:28] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 09:00:28] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: NO
+[2026-09-16 09:00:28] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 09:00:28] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 09:00:29] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 09:00:29] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 09:00:32] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 09:00:32] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: NO
+[2026-09-16 09:00:32] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 09:00:32] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 09:00:33] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 09:00:33] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 09:00:37] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 09:00:37] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: NO
+[2026-09-16 09:00:37] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 09:00:37] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 09:00:38] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 09:00:38] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
+[2026-09-16 09:00:48] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 09:00:48] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: NO
+[2026-09-16 09:00:48] [INFO] Incoming Request - Action: 'file_list', Filename: '', Method: GET
+[2026-09-16 09:00:48] [INFO] Routing OTHER action 'file_list' to api.php
+[2026-09-16 09:00:48] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: file_list, Type: form
+[2026-09-16 09:00:50] [DEBUG] Dispatching API Request [Endpoint: http://xxy.yzz.io/api.php] - Action: project, Type: query
+[2026-09-16 09:00:50] [INFO] LoaderMiddleware initialized for Project ID: 1, Token loaded: NO
+[2026-09-16 09:00:50] [INFO] Incoming Request - Action: '', Filename: 'favicon.ico', Method: GET
+[2026-09-16 09:00:50] [INFO] Handling Range/Partial Download for 'favicon.ico' via block_chunk.php
+[2026-09-16 09:00:51] [DEBUG] Running security chunk processor via ChunkedDataProcessor Layer
+[2026-09-16 09:00:51] [CRITICAL] Action processing error [view]: Call to undefined function template_for_count()
