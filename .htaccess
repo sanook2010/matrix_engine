@@ -1,0 +1,92 @@
+# =========================================================================
+# .htaccess - [3-TIER PRIORITY ROUTER: FIXED UNIFIED PARAMETER ROUTING]
+# ROOT=SYSTEM / PUBLIC=USER
+# filename ส่งให้ loader.php = path ตรงๆ ไม่มี "public/" นำหน้า
+# เพราะไฟล์ใน API/file_manifest.ini ไม่มีคำว่า public
+# =========================================================================
+
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+php_value max_execution_time 300
+php_value max_input_time 300
+php_flag display_errors on
+php_flag log_errors on
+php_value error_log /home/www/carcf.l3all.qzz.io/cache/error.log
+php_value error_reporting 32767
+
+RewriteEngine On
+
+# ┌─────────────────────────────────────────────┐
+# │ SECURITY — ป้องกันโฟลเดอร์และไฟล์ระบบ      │
+# └─────────────────────────────────────────────┘
+# ✅ บล็อกแค่โฟลเดอร์ ไม่ใช่ไฟล์ .php ที่รูท
+ RewriteRule ^(core|class|project|cache|storage)/ - [F,L]
+ # ✅ อนุญาตเข้าถึงไฟล์หลักที่รูท
+ # ไม่ต้องใส่กฎบล็อก filemanager.php loader.php api.php
+ # ==============================================
+ # URL สะอาด → ส่งไป loader.php
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$ loader.php?filename=$1 [QSA,L]
+
+# ┌─────────────────────────────────────────────┐
+# │ PHP SETTINGS — จากเดิม                      │
+# └─────────────────────────────────────────────┘
+<IfModule mod_php.c>
+    php_value auto_prepend_file "/home/www/carcf.l3all.qzz.io/matrix_interceptor.php"
+    php_value memory_limit "128M"
+    php_value error_reporting "-1"
+    php_value display_errors "On"
+    php_value default_charset "UTF-8"
+</IfModule>
+
+<IfModule mod_env.c>
+    SetEnv PHP_VALUE_auto_prepend_file "/home/www/carcf.l3all.qzz.io/matrix_interceptor.php"
+    SetEnv PHP_VALUE_memory_limit "128M"
+</IfModule>
+
+# ┌─────────────────────────────────────────────┐
+# │ กฎดั้งเดิม — บายพาสไฟล์ระบบหลัก             │
+# └─────────────────────────────────────────────┘
+RewriteCond %{REQUEST_URI} ^/(api\.php|filemanager\.php|loader\.php|update\.php) [NC]
+RewriteRule ^ - [L]
+
+# [กฎดั้งเดิม] - ส่งไฟล์ .ini ไปที่ loader.php โดยตรง
+# ตัด ".ini" ออกก่อน หรือส่งตามเดิม — แล้วแต่ระบบเดิม
+RewriteRule ^(.*\.ini)$ loader.php?filename=$1 [QSA,L]
+
+# ┌─────────────────────────────────────────────┐
+# │ กฎหลัก — PUBLIC=ผู้ใช้ แต่ filename ไม่มี public/ │
+# └─────────────────────────────────────────────┘
+
+# A. ตรวจสอบไฟล์จริงใน public/ — ถ้ามีให้เปิดเลย
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{DOCUMENT_ROOT}/public/$1 -f
+RewriteRule ^(.*)$ public/$1 [L]
+
+# B. หน้าแรก — ถ้ามี public/index.php จริง
+RewriteCond %{DOCUMENT_ROOT}/public/index.php -f
+RewriteRule ^$ public/index.php [L]
+
+# C. ไม่เจอไฟล์จริง → ส่งไป loader.php
+# ✅ filename = $1 ตรงๆ — ไม่เติม "public/" เพราะ API/file_manifest.ini เก็บแบบรูทผู้ใช้
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ loader.php?action=view&filename=$1 [QSA,L]
+
+# D. หน้าแรก ไม่มีไฟล์จริง → ส่งไป loader.php
+# ✅ filename = "index" ตรงๆ — ไม่มี "public/"
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/public/index.php !-f
+RewriteRule ^$ loader.php?action=view&filename=index [QSA,L]
+
+# ┌─────────────────────────────────────────────┐
+# │ PERFORMANCE — จากเดิม                       │
+# └─────────────────────────────────────────────┘
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript
+</IfModule>
+
+AddDefaultCharset UTF-8
