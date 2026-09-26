@@ -1,0 +1,4 @@
+<FilesMatch "\.(zip|sqlite)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
